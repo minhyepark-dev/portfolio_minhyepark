@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio-Minhye</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/8f56c41d5f.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script defer src="./js/anime.js"></script>
+    <script defer src="./js/form.js"></script>
+    <script defer src="./js/slider.js"></script>
+</head>
+<body>
+    <header id="header">
+        <h1><a href="#">MinhyePark Portfolio</a></h1>
+        <nav>
+            <ul>
+                <li class="home on" data-index="0"><a href="#">Home</a></li>
+                <li class="about" data-index="1"><a href="#">About me</a></li>
+                <li class="closets" data-index="2"><a href="#">Closets</a></li>
+                <li class="doremi" data-index="3"><a href="#">Doremi</a></li>
+                <li class="contact" data-index="4"><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <article id="slider">
+        <ul>
+            <li data-index="1">
+                <div class="inner">
+                    <p class="text-left">portfolio</p>
+                    <p class="text-bottom">front-end developer</p>
+                    <svg width=733 height=160 viewBox="0 0 733 160" class="svg-pc">
+                        <text x="0" y="50%">M</text>
+                        <text x="87" y="50%">I</text>
+                        <text x="132" y="50%">N</text>
+                        <text x="210" y="50%">H</text>
+                        <text x="290" y="50%">Y</text>
+                        <text x="366" y="50%">E</text>
+                        <text x="444" y="50%">P</text>
+                        <text x="508" y="50%">A</text>
+                        <text x="582" y="50%">R</text>
+                        <text x="655" y="50%">K</text>
+                    </svg>
+                    <svg width=460 height=160 viewBox="0 0 460 160" class="svg-tab">
+                        <text x="0" y="50%">M</text>
+                        <text x="53" y="50%">I</text>
+                        <text x="82" y="50%">N</text>
+                        <text x="127" y="50%">H</text>
+                        <text x="175" y="50%">Y</text>
+                        <text x="219" y="50%">E</text>
+                        <text x="261" y="50%">P</text>
+                        <text x="300" y="50%">A</text>
+                        <text x="345" y="50%">R</text>
+                        <text x="390" y="50%">K</text>
+                    </svg>
+                    <svg width=320 height=160 viewBox="0 0 320 160" class="svg-mobile">
+                        <text x="25" y="50%">M</text>
+                        <text x="59" y="50%">I</text>
+                        <text x="80" y="50%">N</text>
+                        <text x="110" y="50%">H</text>
+                        <text x="142" y="50%">Y</text>
+                        <text x="170" y="50%">E</text>
+                        <text x="197" y="50%">P</text>
+                        <text x="221" y="50%">A</text>
+                        <text x="250" y="50%">R</text>
+                        <text x="280" y="50%">K</text>
+                    </svg>
+                </div>
+            </li>
+            <li data-index="2">
+                <div class="inner">
+                    <div class="left-wrap">
+                        <p>growing</p>
+                    </div>
+                    <div class="right-wrap">
+                        <h2>박민혜</h2>
+                        <h3>프론트엔드 개발자</h3>
+                        <div class="img-wrap">
+                            <img src="./img/profile.jpg" alt="프로필사진">
+                        </div>
+                        <p>
+                            안녕하세요. <br>
+                            웹 퍼블리셔에서 프론트엔드 개발자로 <br>
+                            영역을 확장시키고자 노력하고 있습니다. <br>
+                            함께 만들어 가는 과정을 즐기고 <br>
+                            결과를 사랑합니다.
+                        </p>
+                        <a href="https://programmers.co.kr/resumes/471612" target="_blank" class="see-resume">이력서 보기</a>
+                        <div class="tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>SASS(SCSS)</span>
+                            <span>Javascript</span>
+                            <span>ReactJS</span>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li data-index="3">
+                <div class="inner">
+                    <div class="left-wrap">
+                        <img src="img/closets.jpg" alt="closets웹사이트">
+                        <i class="fas fa-mouse-pointer"></i>
+                    </div>
+                    <div class="right-wrap">
+                        <h2>Closets</h2>
+                        <ul>
+                            <li>1200px 기준으로 웹표준과 접근성에 맞추어 작업된 기업형 웹사이트입니다.</li>
+                            <li>메인페이지 외에 Department, Youtube, Community, Gallery, Location, Login, Join 7개의 서브페이지를 포함한 반응형 사이트 입니다.</li>
+                            <li>Department와 Community 페이지는 json파일을 별도로 생성해 실제 데이터를 불러온다고 가정하고 작업했습니다.</li>
+                            <li> youtube, gallery, location은 각각 youtube API, flickr API, kakao map API를 이용하여 서비스를 구성하였습니다. </li>
+                        </ul>
+                        <div class="btn-wrap">
+                            <a href="https://minhyepark-dev.github.io/portfolio_interior" target="_blank">사이트 이동</a>
+                            <a href="https://github.com/minhyepark-dev/portfolio_interior" target="_blank">깃허브 이동</a>
+                            <a href="#" target="_blank">작업 설명서</a>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li data-index="4">
+                <div class="inner">
+                    <div class="top-wrap">
+                        <img src="img/doremi.jpg" alt="doremi웹사이트">
+                        <i class="fas fa-mouse-pointer"></i>
+                    </div>
+                    <div class="bottom-wrap">
+                        <h2>Doremi</h2>
+                        <ul>
+                            <li>리액트JS로 작업된 기업형 웹사이트입니다.</li>
+                            <li>메인페이지 외에 Department, Youtube, Community, Gallery, Location, Join 6개의 서브페이지를 포함한 반응형 사이트 입니다.</li>
+                            <li>리덕스를 이용하여 메인페이지에 커뮤니티 탭의 Q&A 내용을 보여주고 있습니다.</li>
+                            <li>Department와 Community 페이지는 json파일을 별도로 생성해 실제 데이터를 불러온다고 가정하고 작업했습니다.</li>
+                            <li>youtube, gallery, location은 각각 youtube API,flickr API, kakao map API를 이용하여 서비스를 구성하였습니다.</li>
+                        </ul>
+                        <a href="https://minhyepark-dev.github.io/portfolio_react" target="_blank">사이트 이동</a>
+                        <a href="https://github.com/minhyepark-dev/portfolio_react" target="_blank">깃허브 이동</a>
+                        <a href="#" target="_blank">작업 설명서</a>
+                    </div>
+                </div>
+            </li>
+            <li data-index="5">
+                <div class="inner">
+                    <div class="left-wrap">
+                        <p>I love to connect <br> with you</p>
+                    </div>
+                    <div class="right-wrap">
+                        <h2>contact</h2>
+                        <div>
+                            <form id="contact-form">
+                                <input type="hidden" name="contact_number">
+                                <input type="text" required placeholder="이름을 입력하세요" name="to_name">
+                                <input type="email" required placeholder="이메일을 입력하세요" name="from_name">
+                                <textarea required placeholder="문의내용을 입력하세요*" name="message_html" cols="30" rows="10"></textarea>
+                                <input type="submit" value="문의하기">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        <a href="#" class="btn-arrow prev">
+            <i class="fas fa-chevron-left"></i>
+        </a>
+        <a href="#" class="btn-arrow next">
+            <i class="fas fa-chevron-right"></i>
+        </a>
+    </article>
+</body>
+</html>
