@@ -252,18 +252,21 @@ body {
           background: #fff;
           border-radius: 3px;
           margin: 0 2px; }
-          #slider > ul > li[data-index="2"] .right-wrap .tags span:nth-of-type(1) {
+          #slider > ul > li[data-index="2"] .right-wrap .tags span.html {
             border-color: #fa8823;
             color: #fa8823; }
-          #slider > ul > li[data-index="2"] .right-wrap .tags span:nth-of-type(2) {
+          #slider > ul > li[data-index="2"] .right-wrap .tags span.css {
             border-color: #98bb3f;
             color: #98bb3f; }
-          #slider > ul > li[data-index="2"] .right-wrap .tags span:nth-of-type(3) {
+          #slider > ul > li[data-index="2"] .right-wrap .tags span.sass {
             border-color: #acaa37;
             color: #acaa37; }
-          #slider > ul > li[data-index="2"] .right-wrap .tags span:nth-of-type(4) {
+          #slider > ul > li[data-index="2"] .right-wrap .tags span.javascript {
             border-color: #983fbb;
             color: #983fbb; }
+          #slider > ul > li[data-index="2"] .right-wrap .tags span.typescript {
+            border-color: #3178C6;
+            color: #3178C6; }
       #slider > ul > li[data-index="3"] ul {
         width: 80%; }
       #slider > ul > li[data-index="3"] .btn-wrap a {
