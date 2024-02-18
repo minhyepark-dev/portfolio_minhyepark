@@ -1,6 +1,6 @@
 (function () {
     //발급받은 user_id값 인수로 전달
-    emailjs.init("user_xPKdVJIveUhq4GwMAh4wX");
+    emailjs.init("kisZVA8zX7EpGmOtW");
 })();
 
 window.onload = function () {
@@ -13,7 +13,7 @@ window.onload = function () {
         this.contact_number.value = (Math.random() * 100000) | 0;
 
         emailjs
-            .sendForm("service_cxg09io", "template_y58bf2z", this) //serviceID, templateID입력
+            .sendForm("service_8hcyh2a", "template_f9motd5", this) //serviceID, templateID입력
             .then(
                 function (response) {
                     console.log("메일 발송 성공", response.status, response.text);
