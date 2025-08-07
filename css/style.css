@@ -65,11 +65,11 @@ body {
   width: 100%;
   height: 100vh; }
   #slider > ul {
-    width: 500%;
+    width: 600%;
     height: 100%; }
     #slider > ul > li {
       float: left;
-      width: 20%;
+      width: 16.6667%;
       height: 100%; }
       #slider > ul > li .inner {
         position: relative;
@@ -267,26 +267,29 @@ body {
         height: 100%; }
       #slider > ul > li[data-index='3'] .right-wrap h2 {
         color: #26282b; }
-      #slider > ul > li[data-index='4'] ul {
+      #slider > ul > li[data-index='4'] ul, #slider > ul > li[data-index='5'] ul {
         width: 70%; }
-      #slider > ul > li[data-index='4'] .top-wrap {
+      #slider > ul > li[data-index='4'] .top-wrap, #slider > ul > li[data-index='5'] .top-wrap {
         float: none;
         width: 50%;
         height: 40vh;
         border: 1px solid #333;
         margin: 0 auto 30px; }
-      #slider > ul > li[data-index='4'] .bottom-wrap {
+      #slider > ul > li[data-index='4'] .bottom-wrap, #slider > ul > li[data-index='5'] .bottom-wrap {
         width: 100%;
         height: 50%;
         text-align: center; }
-        #slider > ul > li[data-index='4'] .bottom-wrap h2 {
-          color: #b46927;
+        #slider > ul > li[data-index='4'] .bottom-wrap h2, #slider > ul > li[data-index='5'] .bottom-wrap h2 {
           margin-bottom: 20px; }
-      #slider > ul > li[data-index='5'] .inner .left-wrap {
+      #slider > ul > li[data-index='4'] .bottom-wrap h2 {
+        color: #0a5431; }
+      #slider > ul > li[data-index='5'] .bottom-wrap h2 {
+        color: #b46927; }
+      #slider > ul > li[data-index='6'] .inner .left-wrap {
         border: none;
         background: #f5d458;
         justify-content: left; }
-        #slider > ul > li[data-index='5'] .inner .left-wrap::after {
+        #slider > ul > li[data-index='6'] .inner .left-wrap::after {
           content: '';
           width: 300px;
           height: 300px;
@@ -296,14 +299,14 @@ body {
           left: 50%;
           background: #fff;
           opacity: 0.5; }
-        #slider > ul > li[data-index='5'] .inner .left-wrap p {
+        #slider > ul > li[data-index='6'] .inner .left-wrap p {
           position: relative;
           color: #333;
           font-size: 30px;
           letter-spacing: 5px;
           z-index: 1;
           padding-left: 60px; }
-          #slider > ul > li[data-index='5'] .inner .left-wrap p::before {
+          #slider > ul > li[data-index='6'] .inner .left-wrap p::before {
             content: '';
             display: block;
             position: absolute;
@@ -314,7 +317,7 @@ body {
             height: 10px;
             border-radius: 100%;
             background: #333; }
-          #slider > ul > li[data-index='5'] .inner .left-wrap p::after {
+          #slider > ul > li[data-index='6'] .inner .left-wrap p::after {
             content: '';
             display: block;
             position: absolute;
@@ -324,36 +327,36 @@ body {
             height: 300px;
             background: #333;
             margin-left: -0.5px; }
-      #slider > ul > li[data-index='5'] .inner .right-wrap h2 {
+      #slider > ul > li[data-index='6'] .inner .right-wrap h2 {
         font-size: 26px;
         margin-bottom: 20px;
         text-transform: uppercase; }
-      #slider > ul > li[data-index='5'] .inner .right-wrap > div {
+      #slider > ul > li[data-index='6'] .inner .right-wrap > div {
         display: flex;
         justify-content: center;
         align-content: center;
         flex-direction: column;
         width: 400px;
         margin: 0 auto; }
-        #slider > ul > li[data-index='5'] .inner .right-wrap > div input {
+        #slider > ul > li[data-index='6'] .inner .right-wrap > div input {
           width: 100%;
           height: 30px;
           border: 1px solid #bbb;
           margin-bottom: 5px;
           padding-left: 10px;
           font: 12px/1 "'Noto Serif KR', serif"; }
-          #slider > ul > li[data-index='5'] .inner .right-wrap > div input::placeholder {
+          #slider > ul > li[data-index='6'] .inner .right-wrap > div input::placeholder {
             font: 12px/1 "'Noto Serif KR', serif"; }
-        #slider > ul > li[data-index='5'] .inner .right-wrap > div textarea {
+        #slider > ul > li[data-index='6'] .inner .right-wrap > div textarea {
           width: 100%;
           margin-bottom: 20px;
           padding: 10px;
           border: 1px solid #bbb;
           font: 12px/1.3 "'Noto Serif KR', serif";
           resize: none; }
-          #slider > ul > li[data-index='5'] .inner .right-wrap > div textarea::placeholder {
+          #slider > ul > li[data-index='6'] .inner .right-wrap > div textarea::placeholder {
             font: 12px/1 "'Noto Serif KR', serif"; }
-        #slider > ul > li[data-index='5'] .inner .right-wrap > div input[type='submit'] {
+        #slider > ul > li[data-index='6'] .inner .right-wrap > div input[type='submit'] {
           height: 50px;
           line-height: 50px;
           cursor: pointer;
@@ -366,7 +369,7 @@ body {
           background: #fff;
           border-radius: 3px;
           transition: 0.5s; }
-          #slider > ul > li[data-index='5'] .inner .right-wrap > div input[type='submit']:hover {
+          #slider > ul > li[data-index='6'] .inner .right-wrap > div input[type='submit']:hover {
             background: #333;
             color: #fff; }
   #slider .btn-arrow {

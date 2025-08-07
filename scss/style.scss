@@ -68,11 +68,11 @@ body {
   width: 100%;
   height: 100vh;
   > ul {
-    width: 500%;
+    width: 600%;
     height: 100%;
     > li {
       float: left;
-      width: 20%;
+      width: 16.6667%;
       height: 100%;
       .inner {
         position: relative;
@@ -318,7 +318,8 @@ body {
           }
         }
       }
-      &[data-index='4'] {
+      &[data-index='4'],
+      &[data-index='5'] {
         ul {
           width: 70%;
         }
@@ -334,12 +335,25 @@ body {
           height: 50%;
           text-align: center;
           h2 {
-            color: #b46927;
             margin-bottom: 20px;
           }
         }
       }
+      &[data-index='4'] {
+        .bottom-wrap {
+          h2 {
+            color: #0a5431;
+          }
+        }
+      }
       &[data-index='5'] {
+        .bottom-wrap {
+          h2 {
+            color: #b46927;
+          }
+        }
+      }
+      &[data-index='6'] {
         .inner {
           .left-wrap {
             border: none;
